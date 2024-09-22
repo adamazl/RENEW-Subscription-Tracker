@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3B5EDB022C9F079100D6B8AC /* SubscriptionTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubscriptionTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B5EDB122C9F079200D6B8AC /* SubscriptionTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubscriptionTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B5EDB1C2C9F079200D6B8AC /* SubscriptionTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubscriptionTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5EDB022C9F079100D6B8AC /* Renew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Renew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5EDB122C9F079200D6B8AC /* RenewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RenewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5EDB1C2C9F079200D6B8AC /* RenewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RenewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,9 +85,9 @@
 		3B5EDB032C9F079100D6B8AC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3B5EDB022C9F079100D6B8AC /* SubscriptionTracker.app */,
-				3B5EDB122C9F079200D6B8AC /* SubscriptionTrackerTests.xctest */,
-				3B5EDB1C2C9F079200D6B8AC /* SubscriptionTrackerUITests.xctest */,
+				3B5EDB022C9F079100D6B8AC /* Renew.app */,
+				3B5EDB122C9F079200D6B8AC /* RenewTests.xctest */,
+				3B5EDB1C2C9F079200D6B8AC /* RenewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3B5EDB012C9F079100D6B8AC /* SubscriptionTracker */ = {
+		3B5EDB012C9F079100D6B8AC /* Renew */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B5EDB262C9F079200D6B8AC /* Build configuration list for PBXNativeTarget "SubscriptionTracker" */;
+			buildConfigurationList = 3B5EDB262C9F079200D6B8AC /* Build configuration list for PBXNativeTarget "Renew" */;
 			buildPhases = (
 				3B5EDAFE2C9F079100D6B8AC /* Sources */,
 				3B5EDAFF2C9F079100D6B8AC /* Frameworks */,
@@ -110,16 +110,16 @@
 			fileSystemSynchronizedGroups = (
 				3B5EDB042C9F079100D6B8AC /* SubscriptionTracker */,
 			);
-			name = SubscriptionTracker;
+			name = Renew;
 			packageProductDependencies = (
 			);
 			productName = SubscriptionTracker;
-			productReference = 3B5EDB022C9F079100D6B8AC /* SubscriptionTracker.app */;
+			productReference = 3B5EDB022C9F079100D6B8AC /* Renew.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3B5EDB112C9F079200D6B8AC /* SubscriptionTrackerTests */ = {
+		3B5EDB112C9F079200D6B8AC /* RenewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B5EDB292C9F079200D6B8AC /* Build configuration list for PBXNativeTarget "SubscriptionTrackerTests" */;
+			buildConfigurationList = 3B5EDB292C9F079200D6B8AC /* Build configuration list for PBXNativeTarget "RenewTests" */;
 			buildPhases = (
 				3B5EDB0E2C9F079200D6B8AC /* Sources */,
 				3B5EDB0F2C9F079200D6B8AC /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				3B5EDB152C9F079200D6B8AC /* SubscriptionTrackerTests */,
 			);
-			name = SubscriptionTrackerTests;
+			name = RenewTests;
 			packageProductDependencies = (
 			);
 			productName = SubscriptionTrackerTests;
-			productReference = 3B5EDB122C9F079200D6B8AC /* SubscriptionTrackerTests.xctest */;
+			productReference = 3B5EDB122C9F079200D6B8AC /* RenewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3B5EDB1B2C9F079200D6B8AC /* SubscriptionTrackerUITests */ = {
+		3B5EDB1B2C9F079200D6B8AC /* RenewUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B5EDB2C2C9F079200D6B8AC /* Build configuration list for PBXNativeTarget "SubscriptionTrackerUITests" */;
+			buildConfigurationList = 3B5EDB2C2C9F079200D6B8AC /* Build configuration list for PBXNativeTarget "RenewUITests" */;
 			buildPhases = (
 				3B5EDB182C9F079200D6B8AC /* Sources */,
 				3B5EDB192C9F079200D6B8AC /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				3B5EDB1F2C9F079200D6B8AC /* SubscriptionTrackerUITests */,
 			);
-			name = SubscriptionTrackerUITests;
+			name = RenewUITests;
 			packageProductDependencies = (
 			);
 			productName = SubscriptionTrackerUITests;
-			productReference = 3B5EDB1C2C9F079200D6B8AC /* SubscriptionTrackerUITests.xctest */;
+			productReference = 3B5EDB1C2C9F079200D6B8AC /* RenewUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3B5EDAFD2C9F079100D6B8AC /* Build configuration list for PBXProject "SubscriptionTracker" */;
+			buildConfigurationList = 3B5EDAFD2C9F079100D6B8AC /* Build configuration list for PBXProject "Renew" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3B5EDB012C9F079100D6B8AC /* SubscriptionTracker */,
-				3B5EDB112C9F079200D6B8AC /* SubscriptionTrackerTests */,
-				3B5EDB1B2C9F079200D6B8AC /* SubscriptionTrackerUITests */,
+				3B5EDB012C9F079100D6B8AC /* Renew */,
+				3B5EDB112C9F079200D6B8AC /* RenewTests */,
+				3B5EDB1B2C9F079200D6B8AC /* RenewUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		3B5EDB142C9F079200D6B8AC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3B5EDB012C9F079100D6B8AC /* SubscriptionTracker */;
+			target = 3B5EDB012C9F079100D6B8AC /* Renew */;
 			targetProxy = 3B5EDB132C9F079200D6B8AC /* PBXContainerItemProxy */;
 		};
 		3B5EDB1E2C9F079200D6B8AC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3B5EDB012C9F079100D6B8AC /* SubscriptionTracker */;
+			target = 3B5EDB012C9F079100D6B8AC /* Renew */;
 			targetProxy = 3B5EDB1D2C9F079200D6B8AC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -461,7 +461,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SubscriptionTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SubscriptionTracker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Renew.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Renew";
 			};
 			name = Debug;
 		};
@@ -480,7 +480,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SubscriptionTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SubscriptionTracker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Renew.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Renew";
 			};
 			name = Release;
 		};
@@ -521,7 +521,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3B5EDAFD2C9F079100D6B8AC /* Build configuration list for PBXProject "SubscriptionTracker" */ = {
+		3B5EDAFD2C9F079100D6B8AC /* Build configuration list for PBXProject "Renew" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B5EDB242C9F079200D6B8AC /* Debug */,
@@ -530,7 +530,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B5EDB262C9F079200D6B8AC /* Build configuration list for PBXNativeTarget "SubscriptionTracker" */ = {
+		3B5EDB262C9F079200D6B8AC /* Build configuration list for PBXNativeTarget "Renew" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B5EDB272C9F079200D6B8AC /* Debug */,
@@ -539,7 +539,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B5EDB292C9F079200D6B8AC /* Build configuration list for PBXNativeTarget "SubscriptionTrackerTests" */ = {
+		3B5EDB292C9F079200D6B8AC /* Build configuration list for PBXNativeTarget "RenewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B5EDB2A2C9F079200D6B8AC /* Debug */,
@@ -548,7 +548,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B5EDB2C2C9F079200D6B8AC /* Build configuration list for PBXNativeTarget "SubscriptionTrackerUITests" */ = {
+		3B5EDB2C2C9F079200D6B8AC /* Build configuration list for PBXNativeTarget "RenewUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B5EDB2D2C9F079200D6B8AC /* Debug */,
