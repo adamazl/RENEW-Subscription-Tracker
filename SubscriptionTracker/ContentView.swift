@@ -37,6 +37,13 @@ struct ContentView: View {
                     Text("Log")
                 }
                 .tag(1)
+            
+            LogSubscriptionView(subscriptions: $subscriptions)
+                .tabItem {
+                    Image(systemName: "gear.circle.fill")
+                    Text("WIP: Settings")
+                }
+                .tag(1)
         }
         .accentColor(AppColors.mintGreen) // Set accent color to mint green
         .onAppear {
