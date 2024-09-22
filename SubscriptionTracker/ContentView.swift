@@ -80,18 +80,15 @@ struct HomeView: View {
                             .font(.subheadline)
                             .foregroundColor(.gray)
                     }
-                    .padding()
-                    .background(AppColors.cardBackground)
-                    .cornerRadius(12)
-                    .shadow(color: Color.black.opacity(0.1), radius: 5, x: 0, y: 5)
+                    //.padding()
+                    .padding(.horizontal, 16)
+                    .padding(.vertical, 8)
                 }
                 .onDelete(perform: delete)
             }
             .background(AppColors.background)
             .navigationTitle("Subscriptions")
-            .toolbar {
-                EditButton()
-            }
+            
         }
     }
     
@@ -141,6 +138,7 @@ struct LogSubscriptionView: View {
                         saveSubscriptions()
                         clearForm()
                     }
+                    
                 }) {
                     Text("Submit")
                         .frame(maxWidth: .infinity)
@@ -149,6 +147,7 @@ struct LogSubscriptionView: View {
                         .foregroundColor(.white)
                         .cornerRadius(10)
                 }
+                
             }
             .navigationTitle("Log Subscription")
         }
@@ -177,3 +176,7 @@ struct SubscriptionApp: App {
     }
 }
 
+#Preview {
+    // The view to preview.
+    ContentView()
+}
