@@ -12,8 +12,8 @@ struct Subscription: Identifiable, Codable {
 struct AppColors {
     static let background = Color(.systemGray6)
     static let cardBackground = Color(.white)
-    static let mintGreen = Color("MintGreen") // Define this in your asset catalog
-    static let accentBlue = Color("LightBlue") // Define this in your asset catalog
+    static let mintGreen = Color("MintGreen") // Defined in asset catalog
+    static let accentBlue = Color("LightBlue") // Defined in asset catalog
     static let textGray = Color(.darkGray)
 }
 
@@ -38,7 +38,7 @@ struct ContentView: View {
                 }
                 .tag(1)
             
-            LogSubscriptionView(subscriptions: $subscriptions)
+            SettingsView()
                 .tabItem {
                     Image(systemName: "gear.circle.fill")
                     Text("WIP: Settings")
@@ -176,6 +176,13 @@ struct LogSubscriptionView: View {
         }
     }
 }
+
+// MARK: - SettingsView
+
+struct SettingsView: View {
+    var body: some View { Text("Hello, World!") }
+}
+
 
 @main
 struct SubscriptionApp: App {
