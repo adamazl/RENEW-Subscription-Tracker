@@ -124,11 +124,12 @@ struct LogSubscriptionView: View {
             Form {
                 Section(header: Text("Subscription Info")) {
                     TextField("Name", text: $name)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                        //.textFieldStyle(RoundedBorderTextFieldStyle())
                     TextField("Amount", text: $amount)
                         .keyboardType(.decimalPad)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                        //.textFieldStyle(RoundedBorderTextFieldStyle())
                     DatePicker("Renewal Date", selection: $renewalDate, displayedComponents: .date)
+                        //.padding()
                 }
                 
                 Button(action: {
@@ -137,6 +138,7 @@ struct LogSubscriptionView: View {
                         subscriptions.append(newSubscription)
                         saveSubscriptions()
                         clearForm()
+                        
                     }
                     
                 }) {
@@ -149,6 +151,7 @@ struct LogSubscriptionView: View {
                 }
                 
             }
+            
             .navigationTitle("Log Subscription")
         }
     }
