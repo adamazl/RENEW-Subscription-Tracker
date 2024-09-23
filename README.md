@@ -1,4 +1,4 @@
-# Subscription Tracker App
+# RENEW: A Subscription Renewal Tracker App
 
 Do you have a lot of subscriptions and having trouble keeping track of them? Do you hate it when the subscription randomly takes away your money without telling you?
 
