@@ -1,4 +1,4 @@
-# RENEW: A Subscription Renewal Tracker App for iOS
+# RENEW: A Subscription Tracker App for iOS
 
 ## Information
 
