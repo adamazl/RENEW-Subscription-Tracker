@@ -116,6 +116,8 @@ struct HomeView: View {
             UserDefaults.standard.set(encoded, forKey: "subscriptions")
         }
     }
+    
+    
 }
 
 // MARK: - LogSubscriptionView
@@ -157,6 +159,8 @@ struct LogSubscriptionView: View {
                         .cornerRadius(10)
                 }
                 
+
+                
             }.scrollDismissesKeyboard(.interactively)
             
             .navigationTitle("Log Subscription")
@@ -175,6 +179,9 @@ struct LogSubscriptionView: View {
             UserDefaults.standard.set(encoded, forKey: "subscriptions")
         }
     }
+    
+    
+
 }
 
 // MARK: - SettingsView
@@ -183,22 +190,81 @@ struct SettingsView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Text("Work in Progress") }
+                List {
+                    Text("App Guide")
+                    Text("Notifications")
+                    Text("Setting 3")
+                    Button(action: {
+                        scheduleTestNotification() // Call the function to schedule the test notification
+                    }) {
+                        Text("Test Notification")
+                            .frame(maxWidth: .infinity)
+                            .padding()
+                            .background(Color.blue)
+                            .foregroundColor(.white)
+                            .cornerRadius(10)
+                    }
+                    
+                    
+                }
+                
+                }
+                
             .navigationTitle("Settings")
             }
         
         }
 }
 
+func scheduleTestNotification() {
+    let content = UNMutableNotificationContent()
+    content.title = "Test Notification"
+    content.body = "This is a test notification to check if everything works!"
+    content.sound = .default
+    
+    // Create a trigger that fires immediately (1 second delay)
+    let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 3, repeats: false)
+    
+    // Create the request
+    let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
+    
+    // Schedule the notification
+    UNUserNotificationCenter.current().add(request) { error in
+        if let error = error {
+            print("Error scheduling test notification: \(error.localizedDescription)")
+        } else {
+            print("Test notification scheduled")
+        }
+    }
+}
+
+import UserNotifications
 
 @main
 struct SubscriptionApp: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+            WindowGroup {
+                ContentView()
+                    .onAppear {
+                        requestNotificationPermission()
+                    }
+            }
         }
-    }
+
+        func requestNotificationPermission() {
+            UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { granted, error in
+                if granted {
+                    print("Notification permission granted.")
+                } else if let error = error {
+                    print("Notification permission denied: \(error.localizedDescription)")
+                }
+            }
+        }
 }
+
+// MARK: - Notifications
+
+
 
 #Preview {
     // The view to preview.
