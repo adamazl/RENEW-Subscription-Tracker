@@ -43,7 +43,7 @@ struct ContentView: View {
                     Image(systemName: "gear.circle.fill")
                     Text("WIP: Settings")
                 }
-                .tag(1)
+                .tag(2)
         }
         .accentColor(AppColors.mintGreen) // Set accent color to mint green
         .onAppear {
@@ -180,7 +180,14 @@ struct LogSubscriptionView: View {
 // MARK: - SettingsView
 
 struct SettingsView: View {
-    var body: some View { Text("Hello, World!") }
+    var body: some View {
+        NavigationView {
+            VStack {
+                Text("Work in Progress") }
+            .navigationTitle("Settings")
+            }
+        
+        }
 }
 
 
