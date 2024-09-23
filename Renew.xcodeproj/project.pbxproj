@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3BFC1D442CA13D2F007C0D25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BFC1D402CA13D2F007C0D25 /* Assets.xcassets */; };
+		3BFC1D452CA13D2F007C0D25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC1D412CA13D2F007C0D25 /* ContentView.swift */; };
+		3BFC1D462CA13D2F007C0D25 /* SubscriptionTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC1D422CA13D2F007C0D25 /* SubscriptionTrackerApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		3B5EDB132C9F079200D6B8AC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,22 +33,15 @@
 		3B5EDB022C9F079100D6B8AC /* Renew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Renew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B5EDB122C9F079200D6B8AC /* RenewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RenewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B5EDB1C2C9F079200D6B8AC /* RenewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RenewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BFC1D402CA13D2F007C0D25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BFC1D412CA13D2F007C0D25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3BFC1D422CA13D2F007C0D25 /* SubscriptionTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionTrackerApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		3B5EDB042C9F079100D6B8AC /* SubscriptionTracker */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SubscriptionTracker;
-			sourceTree = "<group>";
-		};
-		3B5EDB152C9F079200D6B8AC /* SubscriptionTrackerTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SubscriptionTrackerTests;
-			sourceTree = "<group>";
-		};
-		3B5EDB1F2C9F079200D6B8AC /* SubscriptionTrackerUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SubscriptionTrackerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -76,9 +75,10 @@
 			isa = PBXGroup;
 			children = (
 				3B5EDB042C9F079100D6B8AC /* SubscriptionTracker */,
-				3B5EDB152C9F079200D6B8AC /* SubscriptionTrackerTests */,
-				3B5EDB1F2C9F079200D6B8AC /* SubscriptionTrackerUITests */,
 				3B5EDB032C9F079100D6B8AC /* Products */,
+				3BFC1D402CA13D2F007C0D25 /* Assets.xcassets */,
+				3BFC1D412CA13D2F007C0D25 /* ContentView.swift */,
+				3BFC1D422CA13D2F007C0D25 /* SubscriptionTrackerApp.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,9 +130,6 @@
 			dependencies = (
 				3B5EDB142C9F079200D6B8AC /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				3B5EDB152C9F079200D6B8AC /* SubscriptionTrackerTests */,
-			);
 			name = RenewTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +149,6 @@
 			);
 			dependencies = (
 				3B5EDB1E2C9F079200D6B8AC /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				3B5EDB1F2C9F079200D6B8AC /* SubscriptionTrackerUITests */,
 			);
 			name = RenewUITests;
 			packageProductDependencies = (
@@ -212,6 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BFC1D442CA13D2F007C0D25 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +231,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BFC1D452CA13D2F007C0D25 /* ContentView.swift in Sources */,
+				3BFC1D462CA13D2F007C0D25 /* SubscriptionTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
