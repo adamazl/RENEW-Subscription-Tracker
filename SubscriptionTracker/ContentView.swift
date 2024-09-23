@@ -157,7 +157,7 @@ struct LogSubscriptionView: View {
                         .cornerRadius(10)
                 }
                 
-            }
+            }.scrollDismissesKeyboard(.interactively)
             
             .navigationTitle("Log Subscription")
         }
