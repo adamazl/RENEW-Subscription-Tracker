@@ -6,12 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		3BFC1D442CA13D2F007C0D25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BFC1D402CA13D2F007C0D25 /* Assets.xcassets */; };
-		3BFC1D452CA13D2F007C0D25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC1D412CA13D2F007C0D25 /* ContentView.swift */; };
-		3BFC1D462CA13D2F007C0D25 /* SubscriptionTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC1D422CA13D2F007C0D25 /* SubscriptionTrackerApp.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		3B5EDB132C9F079200D6B8AC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -30,12 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3B5EDB022C9F079100D6B8AC /* Renew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Renew.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B5EDB122C9F079200D6B8AC /* RenewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RenewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B5EDB1C2C9F079200D6B8AC /* RenewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RenewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BFC1D402CA13D2F007C0D25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3BFC1D412CA13D2F007C0D25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3BFC1D422CA13D2F007C0D25 /* SubscriptionTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionTrackerApp.swift; sourceTree = "<group>"; };
+		3B5EDB022C9F079100D6B8AC /* Renew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Renew.app; path = "/Users/adamaizal/Documents/Subscription-iOS-App/SubscriptionTracker/build/Debug-iphoneos/Renew.app"; sourceTree = "<absolute>"; };
+		3B5EDB122C9F079200D6B8AC /* RenewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = RenewTests.xctest; path = "/Users/adamaizal/Documents/Subscription-iOS-App/SubscriptionTracker/build/Debug-iphoneos/Renew.app/PlugIns/RenewTests.xctest"; sourceTree = "<absolute>"; };
+		3B5EDB1C2C9F079200D6B8AC /* RenewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = RenewUITests.xctest; path = "/Users/adamaizal/Documents/Subscription-iOS-App/SubscriptionTracker/build/Debug-iphoneos/RenewUITests-Runner.app/PlugIns/RenewUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,21 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				3B5EDB042C9F079100D6B8AC /* SubscriptionTracker */,
-				3B5EDB032C9F079100D6B8AC /* Products */,
-				3BFC1D402CA13D2F007C0D25 /* Assets.xcassets */,
-				3BFC1D412CA13D2F007C0D25 /* ContentView.swift */,
-				3BFC1D422CA13D2F007C0D25 /* SubscriptionTrackerApp.swift */,
 			);
-			sourceTree = "<group>";
-		};
-		3B5EDB032C9F079100D6B8AC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3B5EDB022C9F079100D6B8AC /* Renew.app */,
-				3B5EDB122C9F079200D6B8AC /* RenewTests.xctest */,
-				3B5EDB1C2C9F079200D6B8AC /* RenewUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,7 +167,7 @@
 			mainGroup = 3B5EDAF92C9F079100D6B8AC;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 3B5EDB032C9F079100D6B8AC /* Products */;
+			productRefGroup = 3B5EDAF92C9F079100D6B8AC;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -206,7 +183,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BFC1D442CA13D2F007C0D25 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,8 +207,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BFC1D452CA13D2F007C0D25 /* ContentView.swift in Sources */,
-				3BFC1D462CA13D2F007C0D25 /* SubscriptionTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
